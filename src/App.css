@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#calculator{
+  border: 5px solid gray;
+  max-width: 380px;
+  font-weight: 1200;
+  padding: 0;
+  border-radius: 5px;
+}
+#calculator-numbers{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid gray;
+}
