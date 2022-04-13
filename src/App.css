@@ -5,14 +5,31 @@
 }
 
 #calculator{
+  margin: 0 auto;
   border: 5px solid gray;
-  max-width: 380px;
-  font-weight: 1200;
+  max-width: 320px;
   padding: 0;
   border-radius: 5px;
+  background-color: gray;
 }
-#calculator-numbers{
+#calculator-numbers button{
+  background-color: white;
+}
+
+.operator{
+  background-color: rgb(201, 197, 197) !important;
+}
+
+#calculator-numbers,
+#calculator-top-operations{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border: 1px solid gray;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+#calculator-numbers button,
+#calculator-top-operations button{
+  /* border-collapse: collapse; */
+  height: 4em;
+  font-weight: bold;
 }
